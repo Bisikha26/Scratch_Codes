@@ -2,11 +2,11 @@ const {Client} = require('pg');
 
 const client=new Client(
     {
-        host:"arjuna.db.elephantsql.com",//host name 
-        user:"eekdngbe",
+        host:"hostname",//host name 
+        user:"user",
         post:5432,
-        password:"0lh-EswLHFudnm_BZK1_9HZcRF30vJ_b",
-        database:"eekdngbe"
+        password:"password",
+        database:"user"
     }
 )
 client.connect();
